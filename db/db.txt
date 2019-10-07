@@ -1,0 +1,54 @@
+CREATE TABLE movies
+(
+    	id int NOT NULL AUTO_INCREMENT,
+	name nvarchar(30),
+	image nvarchar(30),
+	year int,
+	link nvarchar (1000),
+	synopsis nvarchar(1000),
+    	PRIMARY KEY (ID)
+)
+;
+
+CREATE TABLE users
+(
+	username nvarchar(30),
+	password nvarchar(30),
+	email nvarchar(30),
+	PRIMARY KEY (username,email)
+)
+;
+
+CREATE TABLE commentation
+(
+	CID int NOT NULL AUTO_INCREMENT,
+	id int NOT NULL,
+	commentator nvarchar(30),
+	commentation nvarchar(1000),
+	PRIMARY KEY (CID)
+)
+;
+
+CREATE TABLE questions
+(
+	id int NOT NULL AUTO_INCREMENT,
+	question nvarchar(1000),
+	PRIMARY KEY (id)
+)
+;
+
+CREATE TABLE answers
+(
+	aid int NOT NULL AUTO_INCREMENT,
+	id int NOT NULL,
+	name nvarchar(30),
+	answer nvarchar(1000),
+	PRIMARY KEY (aid)
+)
+;
+
+INSERT INTO movies VALUES (`name`, `image`, `year`, `link`, `synopsis`) ("Avengers: Infinity War","avengers4.jpg",2018,"https://www.imdb.com/title/tt4154756/?ref_=nv_sr_1","The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.")	;
+INSERT INTO movies VALUES (`name`, `image`, `year`, `link`, `synopsis`) ("Blockers","blockers.jpg",2018,"https://www.imdb.com/title/tt2531344/?ref_=nv_sr_1","Three parents try to stop their daughters from losing their virginity on prom night.")			;
+INSERT INTO movies VALUES (`name`, `image`, `year`, `link`, `synopsis`) ("Truth Or Dare","truth_or_dare.jpg",2018,"https://www.imdb.com/title/tt6772950/?ref_=nv_sr_1","A harmless game of Truth or Dare among friends turns deadly when someone -- or something -- begins to punish those who tell a lie or refuse the dare.")	;
+INSERT INTO movies VALUES (`name`, `image`, `year`, `link`, `synopsis`) ("Brain On Fire","brain_on_fire.jpg",2016,"https://www.imdb.com/title/tt3704700/?ref_=nv_sr_1","A young, capable professional cannot explain her newly erratic behavior.")	;
+INSERT INTO movies VALUES (`name`, `image`, `year`, `link`, `synopsis`) ("The Kissing Booth","kissing_booth.jpg",2018,"https://www.imdb.com/title/tt3799232/?ref_=nv_sr_1","A high school student is forced to confront her secret crush at a kissing booth.")	;

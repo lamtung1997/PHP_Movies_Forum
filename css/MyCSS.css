@@ -1,0 +1,161 @@
+.background
+{
+	width: 100%;
+	height: auto;
+	background-image: url(../images/back2.jpg);
+	padding-top: 10px;
+}
+
+.header
+{
+	width: 98%;
+	height: 150px;
+	margin: auto;
+	background-image: url(../images/back.jpg);
+}
+
+.header .logo
+{
+	width: 200px;
+	height: 100%;
+	float: left;
+}
+
+.header .sign_in
+{
+	width: 300px;
+	height: 100%;
+	float: right;
+}
+
+.menu
+{
+	width: 98%;
+	height: 50px;
+	margin: auto;
+}
+
+.menu .list
+{
+	width: auto;
+	height: 100%;
+	float: left;
+}
+
+.menu .facebook
+{
+	width: 50px;
+	height: 100%;
+	float: left;
+}
+
+.menu .search
+{
+	width: 400px;
+	height: 100%;
+	float: right;
+	margin: auto;
+}
+
+.container
+{
+	width: 98%;
+	height: auto;
+	margin: auto;
+	background-image: url(../images/back.jpg);
+}
+
+.container .big_poster
+{
+	width: 100%;
+	height: auto;
+}
+
+.container .small_poster_area
+{
+	width: 1200px;
+	height: 650px;
+	margin: auto;
+}
+
+.container .small_poster
+{
+	width: 180px;
+	height: 260px;
+	border-style: inset;
+	border-color: black;
+	border-width: 10px;
+	float: left;
+	margin:30px;
+	margin-bottom: 10px;
+}
+
+.number_menu
+{
+	padding: 5px;
+	width: 90%;
+	height: auto;
+	margin: auto;
+	text-align: center;
+}
+
+.number_button
+{
+	width: 40px;
+	height: 40px;
+	background-color: blue;
+}
+
+.movie_detail
+{
+	width: 70%;
+	margin: auto;
+}
+
+.synopsis
+{
+	min-height: 510px;
+	width: 100%;
+}
+
+.comment
+{
+	width: 100%;
+	height: auto;
+}
+
+.comment_area
+{
+	width: 80%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+.post_comment_button
+{
+	background-color: #4CAF50;
+	color: white;
+	padding: 10px;
+	border: none;
+	cursor: pointer;
+	width: 10%;
+}
+
+.question_and_answer
+{
+	width: 70%;
+	margin: auto;
+	height: auto;
+	min-height: 60px;
+}
+
+.footer
+{
+	width: 98%;
+	height: 100px;
+	margin: auto;
+	text-align: center;
+	padding-bottom: 15px;
+}
